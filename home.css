@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+header {
+    height: 80px;
+    background: url("logo-2.png") no-repeat;
+    border-bottom: solid 1px lightgrey;
+}
