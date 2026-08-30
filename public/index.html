@@ -7,15 +7,14 @@
     <title>Currículo - Mateus Arce Alves</title>
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header>
-        <h1> Mateus Arce Alves </h1>
-        <p> Estudante de TI </p>
-    </header>
-
     <div class="container">
         <!-- Conteúdo do site (Currículo)-->
         <main>
+            <header>
+                <h1>Mateus Arce Alves</h1>
+                <p class="cargo">Estudante de TI</p>
+            </header>
+
             <article>
                 <h2>Sobre Mim</h2>
                 <p>Estudante focado em estudos relacionados a desenvolvimento web, back-end e front-end</p>
@@ -23,9 +22,21 @@
             
             <article>
                 <h2>Educação</h2>
-                <h3> Estudante de Graduação em Ciência da Computação / TI</h3>
-                <span> 2026 - Cursando (Presencial)</span>
-                <p>Pontifícia Universidade Católica de Minas Gerais (PUC-Minas)</p>
+                    <div class="Linha-Educacao">
+                        <h3>Ciência da Computação / TI</h3>
+                        <span class="data"> 2026 - Cursando (Presencial)</span>
+                    <p class="instituicao">Pontifícia Universidade Católica de Minas Gerais (PUC-Minas)</p>
+                </div>
+            </article>
+
+            <article>
+                <h2>Portifólio</h2>
+                    <nav class="menu-projetos">
+                        <ul>
+                            <li><a href="projetos.html">Principais Projetos</a></li>
+                            <!--Futuramente adicionar: TCC, certificados, artigos, apresentacoes--->
+                        </ul>
+                    </nav>
             </article>
         </main>
         
@@ -36,7 +47,7 @@
                 <h3>Contato</h3>
                 <p>Email: mateusarcealves@gmail.com</p>
                 <p>Telefone: (31) 99314-5858</p>
-                <p>Localização: Belo Horizonte, Minas Gerais</p>
+                <p>Localização: Belo Horizonte, MG</p>
             </section>
 
             <section class="habilidades">
@@ -54,7 +65,7 @@
                 <ul>
                     <li>Inglês - Avançado</li>
                     <li>Português - Fluente</li>
-                    <li>Espanhol - Iniciante/Intermediário</li>
+                    <li>Espanhol - Intermediário</li>
                 </ul>
             </section>
         </aside>
