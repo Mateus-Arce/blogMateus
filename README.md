@@ -8,5 +8,5 @@
 ---
 
 ## Visualização da Página
-
+![Preview do Currículo](images/inspecao_rede.png)
 ![Preview do Currículo](CurriculumVitae.png)
